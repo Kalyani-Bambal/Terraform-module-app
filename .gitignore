@@ -9,7 +9,7 @@ crash.log
 *.pem
 *.key
 *.pub
-terra-key-ec2
+terra-key-1
 
 # Sensitive or generated files
 *.tfvars
