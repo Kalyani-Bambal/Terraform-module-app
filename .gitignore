@@ -1,0 +1,31 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# SSH keys
+*.pem
+*.key
+*.pub
+terra-key-ec2
+
+# Sensitive or generated files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+
+# Local IDE/Editor settings
+.vscode/
+.idea/
